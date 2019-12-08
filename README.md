@@ -19,10 +19,41 @@
 ### 四、流程图  
 ### 五、核心代码  
 输入输出流  
-![](https://github.com/LiuBingfeng1/GUI/blob/master/%E5%85%B3%E9%94%AE%E4%BB%A3%E7%A0%81%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%B5%81.png)  
-![](https://github.com/LiuBingfeng1/GUI/blob/master/%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%B5%812.png)  
+
 主页面跳转窗口  
-![]
+```public void init() {
+		JFrame frame=new JFrame();
+		JPanel panel=new JPanel();
+		panel.setLayout(null);
+		JButton btn1=new JButton("学生选课");//创建按钮组件
+		btn1.setBounds(100, 40, 200, 40);//调节窗口尺寸
+		btn1.addActionListener(new ActionListener(){//监听事件
+			public void actionPerformed(ActionEvent arg0) {
+			ChoiceSubject choice=new ChoiceSubject();//点击按钮时，对choice进行实例化，进行页面的跳转
+			}
+		});
+		JButton btn2=new JButton("学生退课");//创建按钮组件
+		btn2.setBounds(100, 120, 200, 40);//调节窗口尺寸
+		btn2.addActionListener(new ActionListener(){//监听事件
+			public void actionPerformed(ActionEvent arg0) {
+			QuitSubjects quit=new QuitSubjects();//点击按钮时，对quit进行实例化，进行页面的跳转
+			}
+		});
+		JButton btn3=new JButton("打印学生选课列表");//创建按钮组件
+		btn3.setBounds(100, 200, 200, 40);//调节窗口尺寸
+		btn3.addActionListener(new ActionListener(){//监听事件
+			public void actionPerformed(ActionEvent arg0) {
+			PrintSubjects print=new PrintSubjects();//点击按钮时，对print进行实例化，进行页面的跳转
+			}
+		});
+		JButton btn4=new JButton("课程新加");//创建按钮组件
+		btn4.setBounds(100, 280, 200, 40);//调节窗口尺寸
+		btn4.addActionListener(new ActionListener(){//监听事件
+			public void actionPerformed(ActionEvent arg0) {
+			AddSubjects print=new AddSubjects();//点击按钮时，对print进行实例化，进行页面的跳转
+			}
+		})```  
+
 ### 六、系统运行截图
 学生选课系统进入页面  
 ![](https://github.com/LiuBingfeng1/GUI/blob/master/LoginTest.png)  
