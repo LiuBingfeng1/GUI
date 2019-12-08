@@ -97,14 +97,23 @@ s 不是空的
 ### 六、系统运行截图
 学生选课系统进入页面  
 ![](https://github.com/LiuBingfeng1/GUI/blob/master/LoginTest.png)  
+    
 选课页面  
 ![](https://github.com/LiuBingfeng1/GUI/blob/master/ChoiceSubject.png)  
+  
 退课页面  
 ![](https://github.com/LiuBingfeng1/GUI/blob/master/QuitSubjects.png)  
+  
 打印课程页面  
 ![](https://github.com/LiuBingfeng1/GUI/blob/master/PrintSubjects.png)  
+  
 添加新课页面  
+  
 添加新课成功  
 ![](https://github.com/LiuBingfeng1/GUI/blob/master/AddSubjects%E6%88%90%E5%8A%9F.png)  
+  
 添加新课信息为空  
 ![](https://github.com/LiuBingfeng1/GUI/blob/master/AddSubjects%E4%B8%BA%E7%A9%BA.png)
+  
+### 七、感受
+最后的实验真的很难，在之前GUI的基础上继续扩写，不断优化。输入输出流很难写，在CSDN上看了很多大神写的，看了很多介绍和实例，学习到了很多。
