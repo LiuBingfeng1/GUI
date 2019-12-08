@@ -20,7 +20,9 @@
 ### 五、核心代码  
 输入输出流  
 ![](https://github.com/LiuBingfeng1/GUI/blob/master/%E5%85%B3%E9%94%AE%E4%BB%A3%E7%A0%81%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%B5%81.png)  
-
+![](https://github.com/LiuBingfeng1/GUI/blob/master/%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%B5%812.png)  
+主页面跳转窗口  
+![]
 ### 六、系统运行截图
 学生选课系统进入页面  
 ![](https://github.com/LiuBingfeng1/GUI/blob/master/LoginTest.png)  
